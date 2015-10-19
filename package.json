@@ -10,7 +10,7 @@
   "activationCommands": {
     "atom-workspace": "impex-syntax:toggle"
   },
-  "repository": "https://github.com/chadwtkns/impex-syntax",
+  "repository": "https://github.com/chadwtkns/language-impex",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

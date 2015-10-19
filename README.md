@@ -1,4 +1,4 @@
-# impex-syntax package
+# language-impex package
 
 Syntax highlighting for the hybris impex files. This is not an official package.
 
