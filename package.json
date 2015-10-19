@@ -1,7 +1,7 @@
 {
   "name": "impex-syntax",
   "main": "./lib/impex-syntax",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Syntax highlighting for Impex files",
   "keywords": ["hybris","impex"
   ],
