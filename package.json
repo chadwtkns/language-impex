@@ -1,5 +1,5 @@
 {
-  "name": "impex-syntax",
+  "name": "language-impex",
   "main": "./lib/impex-syntax",
   "version": "0.1.1",
   "description": "Syntax highlighting for Impex files",
