@@ -13,3 +13,4 @@ Syntax highlighting for the hybris impex files. This is not an official package.
 
 * highlighting table names
 * highlighting column names
+* understand cson 'name' and change to use impex
