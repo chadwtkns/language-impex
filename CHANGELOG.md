@@ -1,3 +1,7 @@
+## 0.2.0
+* added variable support
+* readme changes
+
 ## 0.1.2
 * renamed project with proper atom naming convention
 

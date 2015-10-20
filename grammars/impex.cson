@@ -12,7 +12,11 @@
     'name': 'comment'
   },
   {
+    'match': '(?x)\n\t\t\t(\\$+)[a-zA-Z_\\x{7f}-\\x{ff}]\n\t\t\t[a-zA-Z0-9_\\x{7f}-\\x{ff}]*?\\b'
+    'name': 'storage'
+  },
+  {
     'match': ';'
-    'name': 'constant'
+    'name': 'constant.numeric'
   }
 ]
