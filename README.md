@@ -8,8 +8,4 @@ Syntax highlighting for the hybris impex files. This is not an official package.
 * Semicolon highlighting
 * The 4 keywords of impex
 * Impex Variables
-
-### Todo
-
-[ ] highlighting table names
-[ ] highlighting column names
+* highlighting table names

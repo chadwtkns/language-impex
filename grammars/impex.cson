@@ -3,10 +3,6 @@
 'fileTypes': ['impex']
 'patterns': [
   {
-    'match': '(?i:(INSERT_UPDATE|UPDATE|REMOVE|INSERT))'
-    'name': 'keyword'
-  },
-  {
     'begin': '#'
     'end': '\\n|(?=\\?>)'
     'name': 'comment'
@@ -15,6 +11,15 @@
     'match': '(?x)\n\t\t\t(\\$+)[a-zA-Z_\\x{7f}-\\x{ff}]\n\t\t\t[a-zA-Z0-9_\\x{7f}-\\x{ff}]*?\\b'
     'name': 'storage'
   },
+{
+    'captures':
+      '1':
+        'name': 'keyword'
+      '3':
+        'name': 'entity.name.function.sql'
+    'match': '(?i:^\\s*(insert_update|insert|update|remove)\\s+)([\'"`]?)(\\w+)'
+    'name': 'meta.create.sql'
+  }
   {
     'match': ';'
     'name': 'constant.numeric'

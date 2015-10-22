@@ -1,3 +1,7 @@
+## 0.3.0
+* refactored keyword highlighting
+* added table name support
+
 ## 0.2.0
 * added variable support
 * readme changes
