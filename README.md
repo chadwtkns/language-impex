@@ -16,6 +16,5 @@ Syntax highlighting for the hybris impex files. This is not an official package.
 * Highlights hybris links such as &foo
 * true|false
 * HTML tags such as <foo>
-* Single quotes such as 'foo'
-* Highlights &foo
+* Single quotes such as 'foobar'
 * Highlights unique=|translator=|default=
