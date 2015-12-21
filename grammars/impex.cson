@@ -8,20 +8,48 @@
     'name': 'comment'
   },
   {
-    'match': '(?x)\n\t\t\t(\\$+)[a-zA-Z_\\x{7f}-\\x{ff}]\n\t\t\t[a-zA-Z0-9_\\x{7f}-\\x{ff}]*?\\b'
+    'match': '((?x)\n\t\t\t(\\$+)[a-zA-Z_\\x{7f}-\\x{ff}]\n\t\t\t[a-zA-Z0-9_\\x{7f}-\\x{ff}]*?\\b)'
     'name': 'storage'
   },
-{
+  {
+    'match': '((uid|position|page|cmsComponents|defaultPage|approvalStatus|masterTemplate|searchable|label|approvalStatus|homepage|previewImage)(?=(/])))'
+    'name': 'storage'
+  },
+  {
     'captures':
       '1':
         'name': 'keyword'
       '3':
         'name': 'entity.name.function.sql'
-    'match': '(?i:^\\s*(insert_update|insert|update|remove)\\s+)([\'"`]?)(\\w+)'
-    'name': 'meta.create.sql'
-  }
+    'match': '((?i:^\\s*(insert_update|insert|update|remove)\\s+)([\'"`]?)(\\w+))'
+    'name': 'markup.italic'
+  },
   {
     'match': ';'
     'name': 'constant.numeric'
+  },
+  {
+    'match': '(true|false)'
+    'name': 'markup.inserted'
+  },
+  {
+    'match': '((\/|http:\/\/|https:\/\/).*?(?=(\;|\n|\r|\t| )))'
+    'name': 'entity.other.less.mixin'
+  },
+  {
+    'match': '((?x)\n\t\t\t(\\&+)[a-zA-Z_\\x{7f}-\\x{ff}]\n\t\t\t[a-zA-Z0-9_\\x{7f}-\\x{ff}]*?\\b)'
+    'name': 'meta.link'
+  },
+  {
+    'match': '(unique=|translator=|default=)'
+    'name': 'string.other.link'
+  },
+  {
+    'match': '((\').*?(\'))'
+    'name': 'entity.other.attribute-name'
   }
+  {
+    'match': '((\<).*?(\>))'
+    'name': 'meta.class'
+  },
 ]
