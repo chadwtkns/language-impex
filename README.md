@@ -6,6 +6,15 @@ Syntax highlighting for the hybris impex files. This is not an official package.
 
 * Comment highlighting
 * Semicolon highlighting
-* The 4 keywords of impex
+* THE 4 keywords of impex
 * Impex Variables
+* Many hybris keywords
 * highlighting table names
+* Highlights true|false
+* Highlights HTML tags such as <foo>
+* URLs
+* Highlights hybris links such as &foo
+* true|false
+* HTML tags such as <foo>
+* Single quotes such as 'foobar'
+* Highlights unique=|translator=|default=
