@@ -10,11 +10,11 @@ Syntax highlighting for the hybris impex files. This is not an official package.
 * Impex Variables
 * Many hybris keywords
 * highlighting table names
-* Highlights true|false
-* Highlights HTML tags such as <foo>
-* URLs
-* Highlights hybris links such as &foo
-* true|false
-* HTML tags such as <foo>
-* Single quotes such as 'foobar'
-* Highlights unique=|translator=|default=
+* Highlights true|false (Muffinoota)
+* Highlights HTML tags such as <foo> (Muffinoota)
+* URLs (Muffinoota)
+* Highlights hybris links such as &foo (Muffinoota)
+* true|false (Muffinoota)
+* HTML tags such as <foo> (Muffinoota)
+* Single quotes such as 'foobar' (Muffinoota)
+* Highlights unique=|translator=|default= (Muffinoota)

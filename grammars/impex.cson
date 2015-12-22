@@ -47,7 +47,7 @@
   {
     'match': '((\').*?(\'))'
     'name': 'entity.other.attribute-name'
-  }
+  },
   {
     'match': '((\<).*?(\>))'
     'name': 'meta.class'
