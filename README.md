@@ -2,19 +2,22 @@
 
 Syntax highlighting for the hybris impex files. This is not an official package.
 
-### Features
+Works best using atom-material-syntax syntax theme
 
-* Comment highlighting
-* Semicolon highlighting
-* THE 4 keywords of impex
+## Screengrab
+![](https://i.gyazo.com/c93ccbb42a12cf8b198aceccc93cda20.png)
+
+### Highlights:
+
+* Comments
+* Semicolons
+* THE 4 keywords of Impex and
+* Many other hybris keywords
 * Impex Variables
-* Many hybris keywords
-* highlighting table names
-* Highlights true|false (Muffinoota)
-* Highlights HTML tags such as <foo> (Muffinoota)
+* Table names
+* True|false (Muffinoota)
+* HTML tags such as &lt;foo&gt; (Muffinoota)
 * URLs (Muffinoota)
-* Highlights hybris links such as &foo (Muffinoota)
-* true|false (Muffinoota)
-* HTML tags such as <foo> (Muffinoota)
+* hybris links such as &amp;foo (Muffinoota)
 * Single quotes such as 'foobar' (Muffinoota)
-* Highlights unique=|translator=|default= (Muffinoota)
+* unique=|translator=|default= (Muffinoota)
